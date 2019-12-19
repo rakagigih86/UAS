@@ -4,14 +4,17 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.uas.uas.R;
 import com.uas.uas.fragments.aboutusFragment;
 import com.uas.uas.fragments.bestFragment;
+import com.uas.uas.fragments.socialmediaFragment;
 import com.uas.uas.fragments.tshirtFragment;
 
 
@@ -61,6 +64,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     public void onPointerCaptureChanged(boolean hasCapture) {
 
     }
+
 
 
 }
