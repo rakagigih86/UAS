@@ -9,6 +9,7 @@
         android:roundIcon="@drawable/logocatharsiss"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".activities.DetailActivity"></activity>
         <activity android:name=".activities.WelcomeActivity" />
         <activity android:name=".activities.SplashActivity">
             <intent-filter>

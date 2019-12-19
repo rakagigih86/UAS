@@ -16,6 +16,7 @@
 
 
         <ImageView
+            android:onClick="handleExplicitIntent"
             android:id="@+id/imageView7"
             android:layout_width="487dp"
             android:layout_height="135dp"
@@ -24,7 +25,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.471" />
+            app:layout_constraintVertical_bias="0.471"
+            tools:ignore="OnClick" />
 
         <ImageView
             android:id="@+id/imageView8"
