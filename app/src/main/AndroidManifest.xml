@@ -9,7 +9,6 @@
         android:roundIcon="@drawable/logocatharsiss"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity android:name=".activities.WelcomeActivity" />
         <activity android:name=".activities.SplashActivity">
             <intent-filter>
@@ -20,6 +19,5 @@
         </activity>
         <activity android:name=".activities.MainActivity" />
     </application>
-
 
 </manifest>
