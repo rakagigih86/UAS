@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -69,5 +70,12 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     public void handleExplicitIntent(View view) {
         Intent intent = new Intent(this, DetailActivity.class);
         startActivity(intent);
+    }
+
+    public void link1(View view) {
+        String url = "https://catharsisempire.com/";
+        Uri uriUrl = Uri.parse(url);
+        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
     }
 }
